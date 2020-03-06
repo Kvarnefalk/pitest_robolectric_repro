@@ -62,5 +62,6 @@ dependencies {
 }
 
 project.pitest {
-    targetClasses = ['com.repro.*']
+    targetClasses = ['com.repro.pitest_robolectric_repro.DeviceResolver']
+    targetTests = ['com.repro.*']
 }
